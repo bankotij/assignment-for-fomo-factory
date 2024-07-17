@@ -1,4 +1,4 @@
-# Cryptocurrency Price Tracker
+ # Cryptocurrency Price Tracker
 
 This project is a cryptocurrency price tracker built with Next.js. It fetches and displays the latest prices of selected cryptocurrencies, updating every 10 seconds.
 
@@ -32,8 +32,11 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 3. Set up environment variables:
 
    Create a `.env.local` file in the root of your project and add the following:
+
    MONGODB_URI=your_mongodb_uri
+
    LIVECOINWATCH_API_KEY=your_livecoinwatch_api_key
+
    FETCH_INTERVAL=10000 # Interval in milliseconds
 
 ### Running the Application
