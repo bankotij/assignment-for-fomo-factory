@@ -21,7 +21,7 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 ### Installation
 
 1. Clone the repository:
-   git clone (https://github.com/bankotij/assignment-for-fomo-factory)
+   git clone https://github.com/bankotij/assignment-for-fomo-factory
    
    cd your-repo-name
 
