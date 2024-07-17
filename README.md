@@ -21,15 +21,16 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone (https://github.com/bankotij/assignment-for-fomo-factory)
+   
    cd your-repo-name
 
-2. Install dependencies:
+3. Install dependencies:
    npm install
    or
    yarn install
 
-3. Set up environment variables:
+4. Set up environment variables:
 
    Create a `.env.local` file in the root of your project and add the following:
 
