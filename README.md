@@ -30,6 +30,8 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
    or
    yarn install
 
+
+(IMPORTANT STEP)
 4. Set up environment variables:
 
    Create a `.env.local` file in the root of your project and add the following:
@@ -38,7 +40,7 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 
    LIVECOINWATCH_API_KEY=your_livecoinwatch_api_key
 
-   FETCH_INTERVAL=10000 # Interval in milliseconds
+   FETCH_INTERVAL=10000 (This is the interval in milliseconds)
 
 ### Running the Application
 
