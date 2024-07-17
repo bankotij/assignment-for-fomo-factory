@@ -64,10 +64,3 @@ To deploy the application, follow the deployment guides for your hosting platfor
 - `pages/api/initPriceFetch.ts`: API route for initializing and managing the price fetch intervals.
 - `pages/index.module.css`: CSS module for styling the components.
 
-### Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-### License
-
-This project is licensed under the MIT License.
