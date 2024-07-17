@@ -20,7 +20,47 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 
 ### Installation
 
-1. **Clone the repository**:
-   ```sh
+1. Clone the repository:
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
+
+2. Install dependencies:
+   npm install
+   or
+   yarn install
+
+3. Set up environment variables:
+
+   Create a `.env.local` file in the root of your project and add the following:
+   MONGODB_URI=your_mongodb_uri
+   LIVECOINWATCH_API_KEY=your_livecoinwatch_api_key
+   FETCH_INTERVAL=10000 # Interval in milliseconds
+
+### Running the Application
+
+1. Start the development server:
+   npm run dev
+   or
+   yarn dev
+
+2. Open your browser and navigate to:
+   http://localhost:3000
+
+### Deployment
+
+To deploy the application, follow the deployment guides for your hosting platform (e.g., Vercel, Netlify).
+
+### Project Structure
+
+- `pages/index.tsx`: Main component displaying the cryptocurrency prices.
+- `pages/api/fetchData.ts`: API route for fetching price data from MongoDB.
+- `pages/api/initPriceFetch.ts`: API route for initializing and managing the price fetch intervals.
+- `pages/index.module.css`: CSS module for styling the components.
+
+### Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+### License
+
+This project is licensed under the MIT License.
