@@ -25,14 +25,15 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
    
    cd your-repo-name
 
-3. Install dependencies:
+2. Install dependencies:
    npm install
    or
    yarn install
 
 
 (IMPORTANT STEP)
-4. Set up environment variables:
+
+3. Set up environment variables:
 
    Create a `.env.local` file in the root of your project and add the following:
 
