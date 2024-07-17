@@ -10,6 +10,11 @@ This project is a cryptocurrency price tracker built with Next.js. It fetches an
 - Shows price history for the selected cryptocurrency
 - Minimalist and aesthetic design
 
+Video link for help:
+
+https://drive.google.com/file/d/1GZ5MhOawrZ2LhBaGh5lu5BnujOPymDZJ/view?usp=sharing
+
+
 ## Getting Started
 
 ### Prerequisites
